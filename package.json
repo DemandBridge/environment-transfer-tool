@@ -1,0 +1,17 @@
+{
+  "name": "transfer-docs",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.1",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@seancrowe/chiliconnector-v1_1": "^2.0.0-rc.1.1",
+    "@xmldom/xmldom": "^0.8.10",
+    "chalk": "^5.3.0"
+  }
+}
