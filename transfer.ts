@@ -35,7 +35,7 @@ export async function transferItems({
   src,
   resource,
   items,
-  options,
+  options = {},
 }: {
   dest: {
     base: string;
@@ -49,7 +49,7 @@ export async function transferItems({
   };
   resource: ResourceName;
   items: string[];
-  options: { disablePreviews?: boolean; destPath?: DestinationPath };
+  options?: { disablePreviews?: boolean; destPath?: DestinationPath };
 }) {
   const { disablePreviews = true, destPath = { identical: true } } = options;
 
