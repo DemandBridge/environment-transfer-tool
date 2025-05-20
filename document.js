@@ -1,4 +1,4 @@
-const { DOMParser, XMLSerializer } = require('@xmldom/xmldom');
+import { DOMParser, XMLSerializer } from '@xmldom/xmldom';
 
 export class ChiliDocument {
   constructor(docXml) {

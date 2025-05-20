@@ -4,7 +4,8 @@
   "type": "module",
   "version": "0.0.1",
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "ts-node": "^10.9.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

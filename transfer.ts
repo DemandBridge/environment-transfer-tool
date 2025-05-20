@@ -1,6 +1,6 @@
 import ChiliConnectorV1_1 from "@seancrowe/chiliconnector-v1_1";
 import chalk from "chalk";
-import { ChiliDocument } from "./document";
+import { ChiliDocument } from "./document.js";
 
 export type ResourceName =
   | "Users"
